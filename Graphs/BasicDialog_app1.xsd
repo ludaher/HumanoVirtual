@@ -1,0 +1,186 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="http://www.yworks.com/xml/graphml" xmlns:mstns="http://graphml.graphdrawing.org/xmlns" xmlns="http://www.yworks.com/xml/graphml" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app1="http://www.yworks.com/xml/graphml">
+  <xs:import namespace="http://graphml.graphdrawing.org/xmlns" schemaLocation="BasicDialog.xsd" />
+  <xs:element name="Resources" msdata:Prefix="y" type="xs:string" />
+  <xs:element name="GenericNode" msdata:Prefix="y">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Geometry" msdata:Prefix="y" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="height" form="unqualified" type="xs:string" />
+            <xs:attribute name="width" form="unqualified" type="xs:string" />
+            <xs:attribute name="x" form="unqualified" type="xs:string" />
+            <xs:attribute name="y" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Fill" msdata:Prefix="y" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="color" form="unqualified" type="xs:string" />
+            <xs:attribute name="color2" form="unqualified" type="xs:string" />
+            <xs:attribute name="transparent" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BorderStyle" msdata:Prefix="y" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="color" form="unqualified" type="xs:string" />
+            <xs:attribute name="type" form="unqualified" type="xs:string" />
+            <xs:attribute name="width" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="NodeLabel" msdata:Prefix="y" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element ref="LabelModel" minOccurs="0" maxOccurs="unbounded" />
+              <xs:element ref="ModelParameter" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+            <xs:attribute name="alignment" form="unqualified" type="xs:string" />
+            <xs:attribute name="autoSizePolicy" form="unqualified" type="xs:string" />
+            <xs:attribute name="fontFamily" form="unqualified" type="xs:string" />
+            <xs:attribute name="fontSize" form="unqualified" type="xs:string" />
+            <xs:attribute name="fontStyle" form="unqualified" type="xs:string" />
+            <xs:attribute name="hasBackgroundColor" form="unqualified" type="xs:string" />
+            <xs:attribute name="hasLineColor" form="unqualified" type="xs:string" />
+            <xs:attribute name="height" form="unqualified" type="xs:string" />
+            <xs:attribute name="horizontalTextPosition" form="unqualified" type="xs:string" />
+            <xs:attribute name="iconTextGap" form="unqualified" type="xs:string" />
+            <xs:attribute name="modelName" form="unqualified" type="xs:string" />
+            <xs:attribute name="textColor" form="unqualified" type="xs:string" />
+            <xs:attribute name="verticalTextPosition" form="unqualified" type="xs:string" />
+            <xs:attribute name="visible" form="unqualified" type="xs:string" />
+            <xs:attribute name="width" form="unqualified" type="xs:string" />
+            <xs:attribute name="x" form="unqualified" type="xs:string" />
+            <xs:attribute name="y" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="configuration" form="unqualified" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PolyLineEdge" msdata:Prefix="y">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Path" msdata:Prefix="y" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Point" msdata:Prefix="y" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="x" form="unqualified" type="xs:string" />
+                  <xs:attribute name="y" form="unqualified" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="sx" form="unqualified" type="xs:string" />
+            <xs:attribute name="sy" form="unqualified" type="xs:string" />
+            <xs:attribute name="tx" form="unqualified" type="xs:string" />
+            <xs:attribute name="ty" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LineStyle" msdata:Prefix="y" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="color" form="unqualified" type="xs:string" />
+            <xs:attribute name="type" form="unqualified" type="xs:string" />
+            <xs:attribute name="width" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Arrows" msdata:Prefix="y" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="source" form="unqualified" type="xs:string" />
+            <xs:attribute name="target" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EdgeLabel" msdata:Prefix="y" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element ref="LabelModel" minOccurs="0" maxOccurs="unbounded" />
+              <xs:element ref="ModelParameter" minOccurs="0" maxOccurs="unbounded" />
+              <xs:element name="PreferredPlacementDescriptor" msdata:Prefix="y" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="angle" form="unqualified" type="xs:string" />
+                  <xs:attribute name="angleOffsetOnRightSide" form="unqualified" type="xs:string" />
+                  <xs:attribute name="angleReference" form="unqualified" type="xs:string" />
+                  <xs:attribute name="angleRotationOnRightSide" form="unqualified" type="xs:string" />
+                  <xs:attribute name="distance" form="unqualified" type="xs:string" />
+                  <xs:attribute name="frozen" form="unqualified" type="xs:string" />
+                  <xs:attribute name="placement" form="unqualified" type="xs:string" />
+                  <xs:attribute name="side" form="unqualified" type="xs:string" />
+                  <xs:attribute name="sideReference" form="unqualified" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="alignment" form="unqualified" type="xs:string" />
+            <xs:attribute name="configuration" form="unqualified" type="xs:string" />
+            <xs:attribute name="distance" form="unqualified" type="xs:string" />
+            <xs:attribute name="fontFamily" form="unqualified" type="xs:string" />
+            <xs:attribute name="fontSize" form="unqualified" type="xs:string" />
+            <xs:attribute name="fontStyle" form="unqualified" type="xs:string" />
+            <xs:attribute name="hasBackgroundColor" form="unqualified" type="xs:string" />
+            <xs:attribute name="hasLineColor" form="unqualified" type="xs:string" />
+            <xs:attribute name="height" form="unqualified" type="xs:string" />
+            <xs:attribute name="horizontalTextPosition" form="unqualified" type="xs:string" />
+            <xs:attribute name="iconTextGap" form="unqualified" type="xs:string" />
+            <xs:attribute name="modelName" form="unqualified" type="xs:string" />
+            <xs:attribute name="preferredPlacement" form="unqualified" type="xs:string" />
+            <xs:attribute name="ratio" form="unqualified" type="xs:string" />
+            <xs:attribute name="textColor" form="unqualified" type="xs:string" />
+            <xs:attribute name="verticalTextPosition" form="unqualified" type="xs:string" />
+            <xs:attribute name="visible" form="unqualified" type="xs:string" />
+            <xs:attribute name="width" form="unqualified" type="xs:string" />
+            <xs:attribute name="x" form="unqualified" type="xs:string" />
+            <xs:attribute name="y" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BendStyle" msdata:Prefix="y" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="smoothed" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LabelModel" msdata:Prefix="y">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="SmartNodeLabelModel" msdata:Prefix="y" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="distance" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SmartEdgeLabelModel" msdata:Prefix="y" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="autoRotationEnabled" form="unqualified" type="xs:string" />
+            <xs:attribute name="defaultAngle" form="unqualified" type="xs:string" />
+            <xs:attribute name="defaultDistance" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModelParameter" msdata:Prefix="y">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="SmartNodeLabelModelParameter" msdata:Prefix="y" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="labelRatioX" form="unqualified" type="xs:string" />
+            <xs:attribute name="labelRatioY" form="unqualified" type="xs:string" />
+            <xs:attribute name="nodeRatioX" form="unqualified" type="xs:string" />
+            <xs:attribute name="nodeRatioY" form="unqualified" type="xs:string" />
+            <xs:attribute name="offsetX" form="unqualified" type="xs:string" />
+            <xs:attribute name="offsetY" form="unqualified" type="xs:string" />
+            <xs:attribute name="upX" form="unqualified" type="xs:string" />
+            <xs:attribute name="upY" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SmartEdgeLabelModelParameter" msdata:Prefix="y" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="angle" form="unqualified" type="xs:string" />
+            <xs:attribute name="distance" form="unqualified" type="xs:string" />
+            <xs:attribute name="distanceToCenter" form="unqualified" type="xs:string" />
+            <xs:attribute name="position" form="unqualified" type="xs:string" />
+            <xs:attribute name="ratio" form="unqualified" type="xs:string" />
+            <xs:attribute name="segment" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,3893 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source\il2cppOutput">
+      <UniqueIdentifier>{04c94a0b-4283-4a9f-842f-66a35bb237a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc">
+      <UniqueIdentifier>{af31c03d-9910-46e2-bffa-45127baefb23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc\cord">
+      <UniqueIdentifier>{07139a4c-8847-4073-b594-ed1006c60889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc\cord\tests">
+      <UniqueIdentifier>{6a82bf3d-fbd7-4431-aa15-e438b89f81f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc\extra">
+      <UniqueIdentifier>{5ae42ed0-5240-42f8-9d43-6dcf30110dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc\extra\Mac_files">
+      <UniqueIdentifier>{17aa0769-6cfc-4529-8962-4407ffd1c3c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc\libatomic_ops\src">
+      <UniqueIdentifier>{9ebf63f2-da7e-42cd-b729-1d71ce8cdf5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc\libatomic_ops\tests">
+      <UniqueIdentifier>{e9975424-3b52-4c3f-bf7e-90bd8305d2da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc\tests">
+      <UniqueIdentifier>{79382daf-7461-4bf7-9222-eca9a0246975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc\tools">
+      <UniqueIdentifier>{22111a5c-1f3e-47ed-9c69-69d077693113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc\windows-untested">
+      <UniqueIdentifier>{565b14f0-e1a0-46ed-8529-bcc285b8bcb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\external\xamarin-android">
+      <UniqueIdentifier>{d6e19a12-cc78-472e-a1d1-10d0bbdec263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\external\zlib">
+      <UniqueIdentifier>{620b562f-c94c-4d51-b623-2db22743e4cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp">
+      <UniqueIdentifier>{15f747f8-c9fb-466b-877b-011fe8f1b6e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\debugger">
+      <UniqueIdentifier>{e4315578-3356-4045-bfa2-75c27207ed16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\debugger\handlers">
+      <UniqueIdentifier>{47c2e243-8f98-4a39-9087-e4897c9fa480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\debugger\protocol">
+      <UniqueIdentifier>{adf4d6d9-a119-45a4-88e1-9886b4862ee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\debugger\protocol\commands">
+      <UniqueIdentifier>{41fd7495-e5ac-4344-a7ae-859bd441198e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\externals">
+      <UniqueIdentifier>{3aab2d21-d393-4e69-b329-081f285d50e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\gc">
+      <UniqueIdentifier>{323ebf27-1e3e-49d7-91cf-b51df58c8b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\Mono">
+      <UniqueIdentifier>{ac4c524e-c664-4546-924b-06ddc231b0a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\Mono.Globalization.Unicode">
+      <UniqueIdentifier>{c8317af9-350e-4782-8f67-b1e841c15e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\Mono.Interop">
+      <UniqueIdentifier>{f9b85a74-c7d3-4637-9529-1d4732d71e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\Mono.Security.Cryptography">
+      <UniqueIdentifier>{cb27026f-dd49-49a8-9a53-55d05041cb1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\System">
+      <UniqueIdentifier>{946dd288-6e30-4630-ad5c-54e3a2cc5221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Diagnostics">
+      <UniqueIdentifier>{7278f5bd-17eb-40f2-bf35-18bb31e53939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization">
+      <UniqueIdentifier>{916a7ffd-1604-4b54-9ffe-e502d10679ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\System.IO">
+      <UniqueIdentifier>{c1a9e278-36c8-480f-bda7-197254a4ee25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection">
+      <UniqueIdentifier>{8bc73841-2cfd-46a2-b96d-044098b5daa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit">
+      <UniqueIdentifier>{67621aa8-cff7-4f5b-91c2-06265907c8f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.CompilerServices">
+      <UniqueIdentifier>{cf72f375-b38f-4be0-b7ca-b42a5e44f5ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.InteropServices">
+      <UniqueIdentifier>{970a164b-c29b-46ff-b2de-6aa2e33211e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.InteropServices.WindowsRuntime">
+      <UniqueIdentifier>{e6898b8a-b0aa-4882-b5b0-807f298dc8d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting">
+      <UniqueIdentifier>{e4ee66fa-4851-4a90-90d1-da6c6f940822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Activation">
+      <UniqueIdentifier>{7fc407a1-c1bf-4f5b-84be-6c027de6e7a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Contexts">
+      <UniqueIdentifier>{79702068-676a-4459-a6cd-d32a7784f7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Messaging">
+      <UniqueIdentifier>{e2dde222-15cd-414f-9d72-14bb7af36d03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Proxies">
+      <UniqueIdentifier>{f807585e-0f88-49e1-8eb0-d53d81b0668e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Versioning">
+      <UniqueIdentifier>{aa5bf343-06de-4ad5-bd6b-278f1abec819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Security">
+      <UniqueIdentifier>{7d7252b9-39fe-492d-ba2a-ede2c8dae636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Security.Cryptography">
+      <UniqueIdentifier>{fce3dc38-2b5f-4d51-b666-dae0fee7e0d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Security.Policy">
+      <UniqueIdentifier>{15c46f31-9c09-4847-879f-f905fa2e7a14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Security.Principal">
+      <UniqueIdentifier>{358dbc20-8d87-45f8-9edd-e52e4189c894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Text">
+      <UniqueIdentifier>{5d92be72-c376-4cce-a5e8-c618c827c7a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Threading">
+      <UniqueIdentifier>{a69d5d06-f90e-4769-ae2e-3e3b0185644d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\System\Microsoft.Win32">
+      <UniqueIdentifier>{80fc30b8-41e1-4ce9-9ca3-ee340a892e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\System\Mono.Net.Security">
+      <UniqueIdentifier>{9c8008f1-2fcb-4e64-93d3-57294080adc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\System\System">
+      <UniqueIdentifier>{fa863594-9ef2-40ef-a7e9-b5c3f5a32309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\System\System.ComponentModel">
+      <UniqueIdentifier>{8bb7e202-879f-4f9e-96f3-97475048853d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\System\System.Configuration">
+      <UniqueIdentifier>{057e9f62-505e-4fb7-bb6d-64d6691242dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\System\System.Diagnostics">
+      <UniqueIdentifier>{da1da198-233c-49af-af23-5d5301b256c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\System\System.IO">
+      <UniqueIdentifier>{d43e5da5-fa78-4349-ad87-003b44c7350c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\System\System.Net">
+      <UniqueIdentifier>{0005257e-b83d-4c35-8bd5-f0db381a8e3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\System\System.Net.NetworkInformation">
+      <UniqueIdentifier>{7e091e9b-b6a4-4caa-aa24-2f2abf78aba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\System\System.Net.Sockets">
+      <UniqueIdentifier>{07853374-3bce-412e-ba07-a6758484ca2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\System\System.Threading">
+      <UniqueIdentifier>{a4896396-96f7-40d9-8e0d-51009461a7af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\System.Configuration\System.Configuration">
+      <UniqueIdentifier>{b72d90da-34c4-4d7f-b9a3-73f8777da875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\System.Core\System.IO.MemoryMappedFiles">
+      <UniqueIdentifier>{2a771499-d2ca-4f35-b2d3-8774c41798cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\metadata">
+      <UniqueIdentifier>{3552c422-b68b-4275-a276-b396939caa73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\mono\ThreadPool">
+      <UniqueIdentifier>{cd474c23-a373-4f98-8246-a3ad2449232d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\mono-runtime">
+      <UniqueIdentifier>{b71cd105-a665-44bc-85b0-969c6849ef58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\os">
+      <UniqueIdentifier>{3761c3ce-12ef-40bb-aaa3-ea44e2438673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\os\Android">
+      <UniqueIdentifier>{eca9e61e-53bd-4327-aae0-7d800374cd7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\os\c-api">
+      <UniqueIdentifier>{f5ef7494-236b-4036-a5c0-d28b3e3dff54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\os\c-api\tests">
+      <UniqueIdentifier>{84f6045d-4ae1-4f69-9b70-4d3710da6ccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\os\Generic">
+      <UniqueIdentifier>{d96f0371-f8ba-4088-b722-41d5c0dfca46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\os\OSX">
+      <UniqueIdentifier>{a8048088-1887-4fcc-a670-8e4a90983de3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\os\Posix">
+      <UniqueIdentifier>{01b1bfbc-87b7-46fa-8270-6f0bd36eb9e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\os\Std">
+      <UniqueIdentifier>{0394b9a6-0345-4983-9d17-4c4ceb45dda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\os\Unity">
+      <UniqueIdentifier>{74fe2b69-ba0d-458f-9197-f5227c9fed7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\os\Win32">
+      <UniqueIdentifier>{a49dfeb7-447e-4809-aba8-4bff42626b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\os\WinRT">
+      <UniqueIdentifier>{67098e66-8f44-45aa-aa82-67e3201404f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\utils">
+      <UniqueIdentifier>{34b1ed94-ec1b-4d09-9a88-7514a91a1b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\vm">
+      <UniqueIdentifier>{7abf05fd-936c-4dab-9275-a516bb4da660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\vm-utils">
+      <UniqueIdentifier>{5a55876f-367f-42c8-b99f-32b2e89beea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc\include">
+      <UniqueIdentifier>{262d1fa1-ee21-4dd4-a3a9-97cde6336372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc\include\extra">
+      <UniqueIdentifier>{cff6e1c1-0594-4248-a0ac-c24d3fda963b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc\include\private">
+      <UniqueIdentifier>{c743fc91-444d-4eed-9d2f-659bc43b3eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops">
+      <UniqueIdentifier>{11c2c733-5dd7-4dc3-bf42-50b3076e6bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps">
+      <UniqueIdentifier>{24faa4aa-3b97-402b-8319-706439fc1ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\armcc">
+      <UniqueIdentifier>{4ce75b64-883e-4e2f-ab95-4b8010913cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc">
+      <UniqueIdentifier>{05bb0081-1fa9-441d-bad8-84cb78281323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\hpc">
+      <UniqueIdentifier>{aa17cfb1-2d33-4d73-a139-7ba6e8180629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\ibmc">
+      <UniqueIdentifier>{20ee7b37-ce54-42d6-b135-7620de77a9ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\icc">
+      <UniqueIdentifier>{136e6e7c-b82b-4b66-a4e7-4c23dab689e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore">
+      <UniqueIdentifier>{83001cd0-a079-463f-a90c-9e98d4ce17ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\msftc">
+      <UniqueIdentifier>{4812c971-0d78-44c5-9437-f3d4141c0792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\sunc">
+      <UniqueIdentifier>{921ce1e2-0112-4e3c-a529-8ce395bbdb2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\codegen">
+      <UniqueIdentifier>{f0a818ec-3018-4195-9083-a88c75c39a33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\external\google\sparsehash">
+      <UniqueIdentifier>{9658f673-7381-4422-b9f6-2eb99fa874d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\os\c-api\Posix">
+      <UniqueIdentifier>{e466807d-2445-4434-9515-f55b0dcdf9ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\os\c-api\Win32">
+      <UniqueIdentifier>{2c614cdf-b9ee-4647-bd75-faab083836fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\os\Tizen">
+      <UniqueIdentifier>{3d602c01-b1e6-4565-a190-e30aba80bd6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\utils\utf8-cpp\source">
+      <UniqueIdentifier>{17de454f-2964-4af7-8eba-d59a9c6bc807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\utils\utf8-cpp\source\utf8">
+      <UniqueIdentifier>{02e73eaa-5d48-4663-a2f1-1d4306d8b8c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{5f92d961-43ca-4b29-bc42-014278b4df60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external">
+      <UniqueIdentifier>{1bca7886-d26c-4b4d-a6b6-8b0f1ca9e8a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP">
+      <UniqueIdentifier>{d436f629-bd58-42c6-8b12-497ceec11259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\external\boehmgc\libatomic_ops">
+      <UniqueIdentifier>{75f6dce0-ebbb-49d0-b1f5-6d594defe36a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\external">
+      <UniqueIdentifier>{70b9b69c-8ef0-4b73-ba01-539c7d817085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\mscorlib">
+      <UniqueIdentifier>{764c2648-3da0-4de1-857c-c664c9fa8720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls">
+      <UniqueIdentifier>{d36d910c-58e3-43d1-b5de-541eb0be72e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\System">
+      <UniqueIdentifier>{5c3ae8a7-16aa-4fdf-8d3e-6fb05ff73e2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\System.Configuration">
+      <UniqueIdentifier>{ca4a52e6-ebf9-4f72-8201-3c17a1cd3955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\icalls\System.Core">
+      <UniqueIdentifier>{1883c2e3-9b14-4f9e-840c-83f7cbfe6be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\mono">
+      <UniqueIdentifier>{d95ee6a9-5337-49c3-abcf-e558e7cd735b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\external\google">
+      <UniqueIdentifier>{b1318c05-257a-4d9c-ba6d-9d0ec572523c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL2CPP\libil2cpp\utils\utf8-cpp">
+      <UniqueIdentifier>{865bcbcd-e7e3-466f-9f57-402860090ccc}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Assembly-CSharp_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Generics_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Generics_1.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Generics_10.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Generics_11.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Generics_12.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Generics_13.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Generics_2.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Generics_3.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Generics_4.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Generics_5.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Generics_6.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Generics_7.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Generics_8.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Generics_9.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_I18N.CJK_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_I18N.MidEast_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_I18N.Other_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_I18N.Rare_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_I18N.West_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_I18N_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Mono.Security_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Mono.Security_1.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_mscorlib_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_mscorlib_1.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_mscorlib_10.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_mscorlib_11.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_mscorlib_12.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_mscorlib_13.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_mscorlib_2.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_mscorlib_3.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_mscorlib_4.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_mscorlib_5.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_mscorlib_6.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_mscorlib_7.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_mscorlib_8.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_mscorlib_9.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_System.Configuration_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_System.Core_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_System.Xml_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_System.Xml_1.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_System.Xml_2.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_System.Xml_3.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_System.Xml_4.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_System_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_System_1.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_System_2.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_System_3.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_System_4.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_System_5.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.AIModule_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.Analytics_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.AnimationModule_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.AudioModule_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.CoreModule_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.CoreModule_1.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.DirectorModule_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.IMGUIModule_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.InputModule_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.Physics2DModule_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.PhysicsModule_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.TerrainModule_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.TextRenderingModule_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.TilemapModule_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.UIModule_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.UnityAnalyticsModule_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.UnityConnectModule_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.UnityWebRequestAudioModule_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.UnityWebRequestModule_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.UnityWebRequestTextureModule_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.VideoModule_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.VRModule_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine_0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\GenericMethods0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\GenericMethods1.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppAttributes.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCodeRegistration.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppComCallableWrappers0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValuesTable.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_0Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_10Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_11Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_12Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_13Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_14Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_15Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_16Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_17Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_18Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_19Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_1Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_20Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_21Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_22Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_23Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_24Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_25Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_26Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_27Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_28Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_29Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_2Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_30Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_31Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_32Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_33Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_34Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_35Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_36Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_3Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_4Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_5Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_6Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_7Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_8Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_9Table.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericClassTable.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions0.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericInstDefinitions.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericMethodDefinitions.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericMethodPointerTable.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericMethodTable.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppInteropDataTable.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppInvokerTable.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppMetadataRegistration.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppMetadataUsage.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppMethodPointerTable.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppReversePInvokeWrapperTable.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppTypeDefinitions.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\UnresolvedVirtualCallStubs.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <None Include="IL2CPP\external\boehmgc\allchblk.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\alloc.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\backgraph.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\blacklst.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\checksums.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\darwin_stop_world.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\dbg_mlc.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\dyn_load.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\finalize.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\fnlz_mlc.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\gcj_mlc.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\gc_dlopen.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\headers.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\heapsections.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\mach_dep.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\malloc.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\mallocx.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\mark.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\mark_rts.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\misc.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\new_hblk.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\obj_map.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\os_dep.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\pcr_interface.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\pthread_start.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\pthread_stop_world.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\pthread_support.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\ptr_chck.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\real_malloc.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\reclaim.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\specific.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\stubborn.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\thread_local_alloc.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\typd_mlc.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\win32_threads.c">
+      <Filter>IL2CPP\external\boehmgc</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\cord\cordbscs.c">
+      <Filter>IL2CPP\external\boehmgc\cord</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\cord\cordprnt.c">
+      <Filter>IL2CPP\external\boehmgc\cord</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\cord\cordxtra.c">
+      <Filter>IL2CPP\external\boehmgc\cord</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\cord\tests\cordtest.c">
+      <Filter>IL2CPP\external\boehmgc\cord\tests</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\cord\tests\de.c">
+      <Filter>IL2CPP\external\boehmgc\cord\tests</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\cord\tests\de_win.c">
+      <Filter>IL2CPP\external\boehmgc\cord\tests</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\extra\AmigaOS.c">
+      <Filter>IL2CPP\external\boehmgc\extra</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\extra\gc.c">
+      <Filter>IL2CPP\external\boehmgc\extra</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\extra\krait_signal_handler.c">
+      <Filter>IL2CPP\external\boehmgc\extra</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\extra\MacOS.c">
+      <Filter>IL2CPP\external\boehmgc\extra</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\extra\msvc_dbg.c">
+      <Filter>IL2CPP\external\boehmgc\extra</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\extra\Mac_files\dataend.c">
+      <Filter>IL2CPP\external\boehmgc\extra\Mac_files</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\extra\Mac_files\datastart.c">
+      <Filter>IL2CPP\external\boehmgc\extra\Mac_files</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops.c">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops_malloc.c">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops_stack.c">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\libatomic_ops\tests\test_atomic.c">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\tests</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\libatomic_ops\tests\test_malloc.c">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\tests</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\libatomic_ops\tests\test_stack.c">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\tests</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\tests\disclaim_bench.c">
+      <Filter>IL2CPP\external\boehmgc\tests</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\tests\disclaim_test.c">
+      <Filter>IL2CPP\external\boehmgc\tests</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\tests\huge_test.c">
+      <Filter>IL2CPP\external\boehmgc\tests</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\tests\initsecondarythread.c">
+      <Filter>IL2CPP\external\boehmgc\tests</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\tests\leak_test.c">
+      <Filter>IL2CPP\external\boehmgc\tests</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\tests\middle.c">
+      <Filter>IL2CPP\external\boehmgc\tests</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\tests\realloc_test.c">
+      <Filter>IL2CPP\external\boehmgc\tests</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\tests\smash_test.c">
+      <Filter>IL2CPP\external\boehmgc\tests</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\tests\staticrootslib.c">
+      <Filter>IL2CPP\external\boehmgc\tests</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\tests\staticrootstest.c">
+      <Filter>IL2CPP\external\boehmgc\tests</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\tests\subthread_create.c">
+      <Filter>IL2CPP\external\boehmgc\tests</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\tests\test.c">
+      <Filter>IL2CPP\external\boehmgc\tests</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\tests\threadkey_test.c">
+      <Filter>IL2CPP\external\boehmgc\tests</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\tests\thread_leak_test.c">
+      <Filter>IL2CPP\external\boehmgc\tests</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\tests\trace_test.c">
+      <Filter>IL2CPP\external\boehmgc\tests</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\tools\add_gc_prefix.c">
+      <Filter>IL2CPP\external\boehmgc\tools</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\tools\gcname.c">
+      <Filter>IL2CPP\external\boehmgc\tools</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\tools\if_mach.c">
+      <Filter>IL2CPP\external\boehmgc\tools</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\tools\if_not_there.c">
+      <Filter>IL2CPP\external\boehmgc\tools</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\tools\setjmp_t.c">
+      <Filter>IL2CPP\external\boehmgc\tools</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\tools\threadlibs.c">
+      <Filter>IL2CPP\external\boehmgc\tools</Filter>
+    </None>
+    <None Include="IL2CPP\external\boehmgc\windows-untested\stdafx.c">
+      <Filter>IL2CPP\external\boehmgc\windows-untested</Filter>
+    </None>
+    <None Include="IL2CPP\libil2cpp\external\xamarin-android\xamarin_getifaddrs.c">
+      <Filter>IL2CPP\libil2cpp\external\xamarin-android</Filter>
+    </None>
+    <None Include="IL2CPP\libil2cpp\external\zlib\adler32.c">
+      <Filter>IL2CPP\libil2cpp\external\zlib</Filter>
+    </None>
+    <None Include="IL2CPP\libil2cpp\external\zlib\compress.c">
+      <Filter>IL2CPP\libil2cpp\external\zlib</Filter>
+    </None>
+    <None Include="IL2CPP\libil2cpp\external\zlib\crc32.c">
+      <Filter>IL2CPP\libil2cpp\external\zlib</Filter>
+    </None>
+    <None Include="IL2CPP\libil2cpp\external\zlib\deflate.c">
+      <Filter>IL2CPP\libil2cpp\external\zlib</Filter>
+    </None>
+    <None Include="IL2CPP\libil2cpp\external\zlib\gzio.c">
+      <Filter>IL2CPP\libil2cpp\external\zlib</Filter>
+    </None>
+    <None Include="IL2CPP\libil2cpp\external\zlib\infback.c">
+      <Filter>IL2CPP\libil2cpp\external\zlib</Filter>
+    </None>
+    <None Include="IL2CPP\libil2cpp\external\zlib\inffast.c">
+      <Filter>IL2CPP\libil2cpp\external\zlib</Filter>
+    </None>
+    <None Include="IL2CPP\libil2cpp\external\zlib\inflate.c">
+      <Filter>IL2CPP\libil2cpp\external\zlib</Filter>
+    </None>
+    <None Include="IL2CPP\libil2cpp\external\zlib\inftrees.c">
+      <Filter>IL2CPP\libil2cpp\external\zlib</Filter>
+    </None>
+    <None Include="IL2CPP\libil2cpp\external\zlib\trees.c">
+      <Filter>IL2CPP\libil2cpp\external\zlib</Filter>
+    </None>
+    <None Include="IL2CPP\libil2cpp\external\zlib\uncompr.c">
+      <Filter>IL2CPP\libil2cpp\external\zlib</Filter>
+    </None>
+    <None Include="IL2CPP\libil2cpp\external\zlib\zutil.c">
+      <Filter>IL2CPP\libil2cpp\external\zlib</Filter>
+    </None>
+    <ClCompile Include="IL2CPP\libil2cpp\char-conversions.cpp">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\class-internals.cpp">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\il2cpp-api.cpp">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\il2cpp-debugger.cpp">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\mono-structs.cpp">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\UnityAdsStubs.cpp">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\agent.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\command-line-parser.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\data-buffer.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\event-request.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\id-brank.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\il2cpp-api-test-forwarder.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\thread-data.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\transport-tcp.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\variant.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\handlers\app-domain.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\handlers\array-ref.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\handlers\assembly.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\handlers\event-request.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\handlers\event.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\handlers\internal-error.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\handlers\method.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\handlers\module.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\handlers\object-ref.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\handlers\stack-frame.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\handlers\string-ref.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\handlers\thread.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\handlers\type.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\handlers\vm.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\protocol\events.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\protocol\protocol.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\protocol\utils.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\protocol\commands\app-domain.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\protocol\commands\array-ref.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\protocol\commands\assembly.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\protocol\commands\event-request.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\protocol\commands\event.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\protocol\commands\internal-error.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\protocol\commands\method.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\protocol\commands\module.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\protocol\commands\object-ref.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\protocol\commands\stack-frame.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\protocol\commands\string-ref.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\protocol\commands\thread.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\protocol\commands\type.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\debugger\protocol\commands\vm.cpp">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\externals\MonoPosixHelper.cpp">
+      <Filter>IL2CPP\libil2cpp\externals</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\gc\BoehmGC.cpp">
+      <Filter>IL2CPP\libil2cpp\gc</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\gc\GarbageCollector.cpp">
+      <Filter>IL2CPP\libil2cpp\gc</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\gc\GCHandle.cpp">
+      <Filter>IL2CPP\libil2cpp\gc</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\gc\NullGC.cpp">
+      <Filter>IL2CPP\libil2cpp\gc</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\gc\WriteBarrier.cpp">
+      <Filter>IL2CPP\libil2cpp\gc</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\Mono\Runtime.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\Mono</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\Mono\RuntimeClassHandle.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\Mono</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\Mono\RuntimeGPtrArrayHandle.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\Mono</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\Mono\RuntimeMarshal.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\Mono</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\Mono\SafeStringMarshal.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\Mono</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\Mono.Globalization.Unicode\Normalization.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\Mono.Globalization.Unicode</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\Mono.Interop\ComInteropProxy.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\Mono.Interop</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\Mono.Security.Cryptography\KeyPairPersistence.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\Mono.Security.Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Activator.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\AppDomain.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\ArgIterator.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Array.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Buffer.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Char.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\CLRConfig.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\ConsoleDriver.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Convert.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\CurrentSystemTimeZone.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\DateTime.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Decimal.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Delegate.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Double.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Enum.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Environment.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Exception.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\GC.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Math.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\MissingMemberException.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\MonoCustomAttrs.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\MonoEnumInfo.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\MonoType.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Number.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\NumberFormatter.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Object.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\RuntimeFieldHandle.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\RuntimeMethodHandle.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\RuntimeType.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\RuntimeTypeHandle.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\SizedReference.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\String.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\TimeSpan.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Type.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\TypedReference.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\ValueType.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System\__ComObject.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Diagnostics\Assert.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Diagnostics\Debugger.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Diagnostics\StackFrame.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Diagnostics\StackTrace.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization\CalendarData.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization\CompareInfo.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization\CultureData.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization\CultureInfo.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization\RegionInfo.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.IO\DriveInfo.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.IO</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.IO\MonoIO.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.IO</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.IO\Path.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.IO</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\Assembly.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\AssemblyName.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\CustomAttributeData.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\EventInfo.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\FieldInfo.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\MemberInfo.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\MethodBase.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\Module.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\MonoCMethod.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\MonoEventInfo.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\MonoField.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\MonoGenericClass.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\MonoGenericCMethod.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\MonoGenericMethod.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\MonoMethod.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\MonoMethodInfo.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\MonoPropertyInfo.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\ParameterInfo.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\PropertyInfo.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\RtFieldInfo.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit\AssemblyBuilder.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit\CustomAttributeBuilder.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit\DerivedType.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit\DynamicMethod.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit\EnumBuilder.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit\GenericTypeParameterBuilder.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit\MethodBuilder.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit\ModuleBuilder.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit\SignatureHelper.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit\SymbolType.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit\TypeBuilder.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.CompilerServices\RuntimeHelpers.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.CompilerServices</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.InteropServices\GCHandle.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.InteropServices</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.InteropServices\Marshal.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.InteropServices</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.InteropServices.WindowsRuntime\UnsafeNativeMethods.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.InteropServices.WindowsRuntime</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting\RemotingServices.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Activation\ActivationServices.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Activation</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Contexts\Context.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Contexts</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Messaging\AsyncResult.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Messaging\MonoMethodMessage.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Proxies\RealProxy.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Proxies</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Versioning\VersioningHelper.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Versioning</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Security\SecurityFrame.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Security</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Security\SecurityManager.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Security</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Security.Cryptography\RNGCryptoServiceProvider.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Security.Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Security.Policy\Evidence.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Security.Policy</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Security.Principal\WindowsIdentity.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Security.Principal</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Security.Principal\WindowsImpersonationContext.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Security.Principal</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Security.Principal\WindowsPrincipal.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Security.Principal</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Text\Encoding.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Text</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Text\EncodingHelper.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Text</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Text\Normalization.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Text</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Threading\Interlocked.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Threading\InternalThread.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Threading\Monitor.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Threading\Mutex.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Threading\NativeEventCalls.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Threading\Thread.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Threading\ThreadPool.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Threading\Timer.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Threading\WaitHandle.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System\Microsoft.Win32\NativeMethods.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System\Microsoft.Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System\Mono.Net.Security\MonoTlsProviderFactory.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System\Mono.Net.Security</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System\System\IOSelector.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System\System.ComponentModel\Win32Exception.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.ComponentModel</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System\System.Configuration\DefaultConfig.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System\System.Configuration\InternalConfigurationHost.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System\System.Diagnostics\DefaultTraceListener.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System\System.Diagnostics\FileVersionInfo.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System\System.Diagnostics\PerformanceCounter.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System\System.Diagnostics\PerformanceCounterCategory.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System\System.Diagnostics\PerformanceCounterUtils.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System\System.Diagnostics\Process.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System\System.Diagnostics\Stopwatch.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System\System.IO\FAMWatcher.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.IO</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System\System.IO\FileSystemWatcher.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.IO</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System\System.IO\InotifyWatcher.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.IO</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System\System.IO\KqueueMonitor.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.IO</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System\System.Net\Dns.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Net</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System\System.Net.NetworkInformation\LinuxNetworkInterface.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Net.NetworkInformation</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System\System.Net.NetworkInformation\MacOsIPInterfaceProperties.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Net.NetworkInformation</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System\System.Net.Sockets\Socket.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Net.Sockets</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System\System.Net.Sockets\SocketException.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Net.Sockets</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System\System.Threading\Semaphore.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System.Configuration\System.Configuration\InternalConfigurationHost.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System.Configuration\System.Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\icalls\System.Core\System.IO.MemoryMappedFiles\MemoryMapImpl.cpp">
+      <Filter>IL2CPP\libil2cpp\icalls\System.Core\System.IO.MemoryMappedFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\metadata\ArrayMetadata.cpp">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\metadata\FieldLayout.cpp">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\metadata\GenericMetadata.cpp">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\metadata\GenericMethod.cpp">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\metadata\GenericSharing.cpp">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\metadata\Il2CppGenericClassCompare.cpp">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\metadata\Il2CppGenericClassHash.cpp">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\metadata\Il2CppGenericContextCompare.cpp">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\metadata\Il2CppGenericContextHash.cpp">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\metadata\Il2CppGenericInstCompare.cpp">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\metadata\Il2CppGenericInstHash.cpp">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\metadata\Il2CppGenericMethodCompare.cpp">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\metadata\Il2CppGenericMethodHash.cpp">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\metadata\Il2CppSignatureCompare.cpp">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\metadata\Il2CppSignatureHash.cpp">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\metadata\Il2CppTypeCompare.cpp">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\metadata\Il2CppTypeHash.cpp">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\mono\ThreadPool\threadpool-ms-io-poll.cpp">
+      <Filter>IL2CPP\libil2cpp\mono\ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\mono\ThreadPool\threadpool-ms-io.cpp">
+      <Filter>IL2CPP\libil2cpp\mono\ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\mono\ThreadPool\threadpool-ms.cpp">
+      <Filter>IL2CPP\libil2cpp\mono\ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\mono\ThreadPool\ThreadPoolMonitorThread.cpp">
+      <Filter>IL2CPP\libil2cpp\mono\ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\mono\ThreadPool\ThreadPoolWorkerThread.cpp">
+      <Filter>IL2CPP\libil2cpp\mono\ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\mono-runtime\il2cpp-callbacks.cpp">
+      <Filter>IL2CPP\libil2cpp\mono-runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\mono-runtime\il2cpp-mono-support.cpp">
+      <Filter>IL2CPP\libil2cpp\mono-runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\ConditionVariable.cpp">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Debug.cpp">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Error.cpp">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Event.cpp">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Messages.cpp">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Mutex.cpp">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Path.cpp">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Semaphore.cpp">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Socket.cpp">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Thread.cpp">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\ThreadLocalValue.cpp">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Android\StackTrace.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Android</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\Allocator.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\COM.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\ConditionVariable.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\CpuInfo.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\Cryptography.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\Debug.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\Directory.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\Environment.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\Error.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\File.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\Locale.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\Memory.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\MemoryMappedFile.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\Messages.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\Mutex.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\NativeMethods.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\Path.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\Process.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\Thread.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\ThreadLocalValue.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\Time.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\TimeZone.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\tests\COMTests.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\tests\ConditionVariableTests.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\tests\CpuInfoTests.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\tests\CryptographyTests.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\tests\DebugTests.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\tests\DirectoryTests.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\tests\EnvironmentTests.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\tests\ErrorTests.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\tests\FileTests.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\tests\LocaleTests.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\tests\MainTestRunner.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\tests\MemoryMappedFileTests.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\tests\MemoryTests.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\tests\MessagesTests.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\tests\MutexTests.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\tests\NativeMethodsTests.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\tests\PathTests.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\tests\ProcessTests.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\tests\ThreadLocalValueTests.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\tests\TimeTests.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\c-api\tests\TimeZoneTests.cpp">
+      <Filter>IL2CPP\libil2cpp\os\c-api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Generic\COM.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Generic\Environment.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Generic\Initialize.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Generic\MarshalStringAlloc.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Generic\MemoryMappedFile.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Generic\SocketImpl.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Generic\WindowsRuntime.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\OSX\Image.cpp">
+      <Filter>IL2CPP\libil2cpp\os\OSX</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\OSX\Process.cpp">
+      <Filter>IL2CPP\libil2cpp\os\OSX</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\ConditionVariableImpl.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\Console.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\CpuInfo.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\Cryptography.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\Directory.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\Encoding.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\Environment.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\Error.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\EventImpl.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\File.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\FileSystemWatcher.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\Image.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\LastError.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\LibraryLoader.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\Locale.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\MarshalAlloc.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\Memory.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\MemoryMappedFile.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\MutexImpl.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\NativeMethods.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\Path.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\PosixHelpers.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\PosixWaitObject.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\Process.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\SemaphoreImpl.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\SocketImpl.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\StackTrace.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\ThreadImpl.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\ThreadLocalValueImpl.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\Time.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Posix\TimeZone.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Std\ThreadImpl.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Std</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Unity\AtomicQueue.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Unity</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\COM.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\ConditionVariableImpl.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\Console.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\CpuInfo.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\Cryptography.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\Debug.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\Directory.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\Encoding.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\Environment.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\EventImpl.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\File.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\FileSystemWatcher.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\Image.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\Initialize.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\LastError.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\LibraryLoader.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\Locale.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\MarshalAlloc.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\MarshalStringAlloc.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\Memory.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\MemoryMappedFile.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\MutexImpl.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\NativeMethods.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\Path.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\Process.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\SemaphoreImpl.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\SocketImpl.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\StackTrace.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\ThreadImpl.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\ThreadLocalValueImpl.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\Time.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\TimeZone.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\WindowsHelpers.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\Win32\WindowsRuntime.cpp">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\WinRT\Cryptography.cpp">
+      <Filter>IL2CPP\libil2cpp\os\WinRT</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\WinRT\Environment.cpp">
+      <Filter>IL2CPP\libil2cpp\os\WinRT</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\WinRT\File.cpp">
+      <Filter>IL2CPP\libil2cpp\os\WinRT</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\WinRT\Initialize.cpp">
+      <Filter>IL2CPP\libil2cpp\os\WinRT</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\WinRT\Locale.cpp">
+      <Filter>IL2CPP\libil2cpp\os\WinRT</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\WinRT\Process.cpp">
+      <Filter>IL2CPP\libil2cpp\os\WinRT</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\WinRT\Win32ApiSharedEmulation.cpp">
+      <Filter>IL2CPP\libil2cpp\os\WinRT</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\os\WinRT\Win32ApiWinRTEmulation.cpp">
+      <Filter>IL2CPP\libil2cpp\os\WinRT</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\utils\DirectoryUtils.cpp">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\utils\Environment.cpp">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\utils\Exception.cpp">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\utils\Logging.cpp">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\utils\MarshalingUtils.cpp">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\utils\Memory.cpp">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\utils\MemoryPool.cpp">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\utils\Output.cpp">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\utils\PathUtils.cpp">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\utils\RegisterRuntimeInitializeAndCleanup.cpp">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\utils\Runtime.cpp">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\utils\StringUtils.cpp">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Array.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Assembly.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\AssemblyName.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Atomic.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\CCW.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Class.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\COM.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\ComObjectBase.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Debug.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Domain.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Enum.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Event.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Exception.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Field.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\GenericClass.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\GenericContainer.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Image.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\InternalCalls.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\LastError.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\LibraryLoader.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Liveness.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\MarshalAlloc.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\MemoryInformation.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\MetadataAlloc.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\MetadataCache.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\MetadataLoader.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Method.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Module.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Monitor.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Object.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Parameter.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Path.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\PlatformInvoke.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Profiler.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Property.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Random.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\RCW.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Reflection.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Runtime.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\StackTrace.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\String.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Thread.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\ThreadPool.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\ThreadPoolMs.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\Type.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\VisualizerHelpers.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\WaitHandle.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm\WindowsRuntime.cpp">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm-utils\BlobReader.cpp">
+      <Filter>IL2CPP\libil2cpp\vm-utils</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm-utils\NativeDelegateMethodCache.cpp">
+      <Filter>IL2CPP\libil2cpp\vm-utils</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm-utils\NativeSymbol.cpp">
+      <Filter>IL2CPP\libil2cpp\vm-utils</Filter>
+    </ClCompile>
+    <ClCompile Include="IL2CPP\libil2cpp\vm-utils\VmStringUtils.cpp">
+      <Filter>IL2CPP\libil2cpp\vm-utils</Filter>
+    </ClCompile>
+    <ClInclude Include="IL2CPP\external\boehmgc\cord\tests\de_cmds.h">
+      <Filter>IL2CPP\external\boehmgc\cord\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\cord\tests\de_win.h">
+      <Filter>IL2CPP\external\boehmgc\cord\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\extra\Mac_files\MacOS_config.h">
+      <Filter>IL2CPP\external\boehmgc\extra\Mac_files</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\cord.h">
+      <Filter>IL2CPP\external\boehmgc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\cord_pos.h">
+      <Filter>IL2CPP\external\boehmgc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\ec.h">
+      <Filter>IL2CPP\external\boehmgc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\gc.h">
+      <Filter>IL2CPP\external\boehmgc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\gc_allocator.h">
+      <Filter>IL2CPP\external\boehmgc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\gc_backptr.h">
+      <Filter>IL2CPP\external\boehmgc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\gc_config_macros.h">
+      <Filter>IL2CPP\external\boehmgc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\gc_cpp.h">
+      <Filter>IL2CPP\external\boehmgc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\gc_disclaim.h">
+      <Filter>IL2CPP\external\boehmgc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\gc_gcj.h">
+      <Filter>IL2CPP\external\boehmgc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\gc_inline.h">
+      <Filter>IL2CPP\external\boehmgc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\gc_mark.h">
+      <Filter>IL2CPP\external\boehmgc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\gc_pthread_redirects.h">
+      <Filter>IL2CPP\external\boehmgc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\gc_tiny_fl.h">
+      <Filter>IL2CPP\external\boehmgc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\gc_typed.h">
+      <Filter>IL2CPP\external\boehmgc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\gc_version.h">
+      <Filter>IL2CPP\external\boehmgc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\javaxfc.h">
+      <Filter>IL2CPP\external\boehmgc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\leak_detector.h">
+      <Filter>IL2CPP\external\boehmgc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\new_gc_alloc.h">
+      <Filter>IL2CPP\external\boehmgc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\weakpointer.h">
+      <Filter>IL2CPP\external\boehmgc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\extra\gc.h">
+      <Filter>IL2CPP\external\boehmgc\include\extra</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\extra\gc_cpp.h">
+      <Filter>IL2CPP\external\boehmgc\include\extra</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\private\darwin_semaphore.h">
+      <Filter>IL2CPP\external\boehmgc\include\private</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\private\darwin_stop_world.h">
+      <Filter>IL2CPP\external\boehmgc\include\private</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\private\dbg_mlc.h">
+      <Filter>IL2CPP\external\boehmgc\include\private</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\private\gcconfig.h">
+      <Filter>IL2CPP\external\boehmgc\include\private</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\private\gc_hdrs.h">
+      <Filter>IL2CPP\external\boehmgc\include\private</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\private\gc_locks.h">
+      <Filter>IL2CPP\external\boehmgc\include\private</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\private\gc_pmark.h">
+      <Filter>IL2CPP\external\boehmgc\include\private</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\private\gc_priv.h">
+      <Filter>IL2CPP\external\boehmgc\include\private</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\private\msvc_dbg.h">
+      <Filter>IL2CPP\external\boehmgc\include\private</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\private\pthread_stop_world.h">
+      <Filter>IL2CPP\external\boehmgc\include\private</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\private\pthread_support.h">
+      <Filter>IL2CPP\external\boehmgc\include\private</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\private\specific.h">
+      <Filter>IL2CPP\external\boehmgc\include\private</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\include\private\thread_local_alloc.h">
+      <Filter>IL2CPP\external\boehmgc\include\private</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops_malloc.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops_stack.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\ao_version.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\generalize-arithm.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\generalize-small.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\generalize.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\all_acquire_release_volatile.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\all_aligned_atomic_load_store.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\all_atomic_load_store.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\all_atomic_only_load.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\ao_t_is_int.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\emul_cas.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\generic_pthread.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\ordered.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\ordered_except_wr.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\read_ordered.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\standard_ao_double_t.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\test_and_set_t_is_ao_t.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\test_and_set_t_is_char.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\armcc\arm_v6.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\armcc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc\aarch64.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc\alpha.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc\arm.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc\avr32.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc\cris.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc\generic-arithm.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc\generic-small.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc\generic.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc\hexagon.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc\hppa.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc\ia64.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc\m68k.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc\mips.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc\powerpc.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc\s390.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc\sh.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc\sparc.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc\x86.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\hpc\hppa.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\hpc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\hpc\ia64.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\hpc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\ibmc\powerpc.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\ibmc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\icc\ia64.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\icc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore\acquire_release_volatile.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore\atomic_load.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore\atomic_store.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore\char_acquire_release_volatile.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore\char_atomic_load.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore\char_atomic_store.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore\double_atomic_load_store.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore\int_acquire_release_volatile.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore\int_atomic_load.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore\int_atomic_store.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore\ordered_loads_only.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore\ordered_stores_only.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore\short_acquire_release_volatile.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore\short_atomic_load.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore\short_atomic_store.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\loadstore</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\msftc\arm.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\msftc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\msftc\common32_defs.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\msftc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\msftc\x86.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\msftc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\msftc\x86_64.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\msftc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\sunc\sparc.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\sunc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\sunc\x86.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\src\atomic_ops\sysdeps\sunc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\libatomic_ops\tests\run_parallel.h">
+      <Filter>IL2CPP\external\boehmgc\libatomic_ops\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\external\boehmgc\windows-untested\stdafx.h">
+      <Filter>IL2CPP\external\boehmgc\windows-untested</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\blob.h">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\char-conversions.h">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\class-internals.h">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icallincludes.h">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\il2cpp-api-functions.h">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\il2cpp-api-types.h">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\il2cpp-api.h">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\il2cpp-config.h">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\il2cpp-debugger.h">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\il2cpp-metadata.h">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\il2cpp-string-types.h">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\il2cpp-vm-support.h">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\metadata.h">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\mono-structs.h">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\normalization-tables.h">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\number-formatter.h">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\object-internals.h">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\tabledefs.h">
+      <Filter>IL2CPP\libil2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\codegen\il2cpp-codegen-common.h">
+      <Filter>IL2CPP\libil2cpp\codegen</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\codegen\il2cpp-codegen-il2cpp.h">
+      <Filter>IL2CPP\libil2cpp\codegen</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\codegen\il2cpp-codegen-mono.h">
+      <Filter>IL2CPP\libil2cpp\codegen</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\codegen\il2cpp-codegen.h">
+      <Filter>IL2CPP\libil2cpp\codegen</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\agent.h">
+      <Filter>IL2CPP\libil2cpp\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\command-line-parser.h">
+      <Filter>IL2CPP\libil2cpp\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\common.h">
+      <Filter>IL2CPP\libil2cpp\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\data-buffer.h">
+      <Filter>IL2CPP\libil2cpp\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\event-request.h">
+      <Filter>IL2CPP\libil2cpp\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\id-bank.h">
+      <Filter>IL2CPP\libil2cpp\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\il2cpp-api-test-forwarder.h">
+      <Filter>IL2CPP\libil2cpp\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\meta.h">
+      <Filter>IL2CPP\libil2cpp\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\thread-data.h">
+      <Filter>IL2CPP\libil2cpp\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\transport-tcp.h">
+      <Filter>IL2CPP\libil2cpp\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\transport.h">
+      <Filter>IL2CPP\libil2cpp\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\variant.h">
+      <Filter>IL2CPP\libil2cpp\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\protocol\events.h">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\protocol\globals.h">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\protocol\protocol-utils.h">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\protocol\protocol.h">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\protocol\utils.h">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\protocol\commands\app-domain.h">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\protocol\commands\array-ref.h">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\protocol\commands\assembly.h">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\protocol\commands\event-request.h">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\protocol\commands\event.h">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\protocol\commands\internal-error.h">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\protocol\commands\method.h">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\protocol\commands\module.h">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\protocol\commands\object-ref.h">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\protocol\commands\stack-frame.h">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\protocol\commands\string-ref.h">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\protocol\commands\thread.h">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\protocol\commands\type.h">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\debugger\protocol\commands\vm.h">
+      <Filter>IL2CPP\libil2cpp\debugger\protocol\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\external\google\sparsehash\densehashtable.h">
+      <Filter>IL2CPP\libil2cpp\external\google\sparsehash</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\external\google\sparsehash\dense_hash_map.h">
+      <Filter>IL2CPP\libil2cpp\external\google\sparsehash</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\external\google\sparsehash\dense_hash_set.h">
+      <Filter>IL2CPP\libil2cpp\external\google\sparsehash</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\external\google\sparsehash\type_traits.h">
+      <Filter>IL2CPP\libil2cpp\external\google\sparsehash</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\external\xamarin-android\logger.h">
+      <Filter>IL2CPP\libil2cpp\external\xamarin-android</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\external\xamarin-android\monodroid.h">
+      <Filter>IL2CPP\libil2cpp\external\xamarin-android</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\external\xamarin-android\xamarin_getifaddrs.h">
+      <Filter>IL2CPP\libil2cpp\external\xamarin-android</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\external\zlib\crc32.h">
+      <Filter>IL2CPP\libil2cpp\external\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\external\zlib\deflate.h">
+      <Filter>IL2CPP\libil2cpp\external\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\external\zlib\inffast.h">
+      <Filter>IL2CPP\libil2cpp\external\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\external\zlib\inffixed.h">
+      <Filter>IL2CPP\libil2cpp\external\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\external\zlib\inflate.h">
+      <Filter>IL2CPP\libil2cpp\external\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\external\zlib\inftrees.h">
+      <Filter>IL2CPP\libil2cpp\external\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\external\zlib\trees.h">
+      <Filter>IL2CPP\libil2cpp\external\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\external\zlib\zconf.h">
+      <Filter>IL2CPP\libil2cpp\external\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\external\zlib\zlib.h">
+      <Filter>IL2CPP\libil2cpp\external\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\external\zlib\zutil.h">
+      <Filter>IL2CPP\libil2cpp\external\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\externals\MonoPosixHelper.h">
+      <Filter>IL2CPP\libil2cpp\externals</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\gc\Allocator.h">
+      <Filter>IL2CPP\libil2cpp\gc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\gc\AppendOnlyGCHashMap.h">
+      <Filter>IL2CPP\libil2cpp\gc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\gc\GarbageCollector.h">
+      <Filter>IL2CPP\libil2cpp\gc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\gc\GCHandle.h">
+      <Filter>IL2CPP\libil2cpp\gc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\gc\gc_wrapper.h">
+      <Filter>IL2CPP\libil2cpp\gc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\gc\WriteBarrier.h">
+      <Filter>IL2CPP\libil2cpp\gc</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\Mono\Runtime.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\Mono</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\Mono\RuntimeClassHandle.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\Mono</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\Mono\RuntimeGPtrArrayHandle.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\Mono</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\Mono\RuntimeMarshal.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\Mono</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\Mono\SafeStringMarshal.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\Mono</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\Mono.Globalization.Unicode\Normalization.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\Mono.Globalization.Unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\Mono.Interop\ComInteropProxy.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\Mono.Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\Mono.Security.Cryptography\KeyPairPersistence.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\Mono.Security.Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Activator.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\AppDomain.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\ArgIterator.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Array.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Buffer.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Char.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\CLRConfig.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\ConsoleDriver.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Convert.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\CurrentSystemTimeZone.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\DateTime.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Decimal.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Delegate.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Double.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Enum.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Environment.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Exception.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\GC.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Math.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\MissingMemberException.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\MonoCustomAttrs.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\MonoEnumInfo.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\MonoType.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Number.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\NumberFormatter.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Object.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\RuntimeFieldHandle.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\RuntimeMethodHandle.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\RuntimeType.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\RuntimeTypeHandle.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\SizedReference.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\String.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\TimeSpan.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\TimeZoneInfo.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\Type.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\TypedReference.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\ValueType.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System\__ComObject.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Diagnostics\Assert.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Diagnostics\Debugger.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Diagnostics\StackFrame.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Diagnostics\StackTrace.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization\CalendarData.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization\CompareInfo.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization\CompareOptions.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization\CultureData.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization\CultureInfo.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization\CultureInfoInternals.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization\CultureInfoTables.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization\RegionInfo.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Globalization</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.IO\DriveInfo.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.IO</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.IO\MonoIO.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.IO</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.IO\Path.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.IO</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\Assembly.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\AssemblyName.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\CustomAttributeData.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\EventInfo.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\FieldInfo.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\MemberInfo.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\MethodBase.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\Module.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\MonoCMethod.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\MonoEventInfo.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\MonoField.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\MonoGenericClass.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\MonoGenericCMethod.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\MonoGenericMethod.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\MonoMethod.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\MonoMethodInfo.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\MonoPropertyInfo.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\ParameterInfo.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\PropertyInfo.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection\RtFieldInfo.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit\AssemblyBuilder.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit\CustomAttributeBuilder.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit\DerivedType.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit\DynamicMethod.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit\EnumBuilder.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit\GenericTypeParameterBuilder.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit\MethodBuilder.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit\ModuleBuilder.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit\SignatureHelper.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit\SymbolType.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit\TypeBuilder.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Reflection.Emit</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.CompilerServices\RuntimeHelpers.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.CompilerServices</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.InteropServices\GCHandle.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.InteropServices</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.InteropServices\Marshal.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.InteropServices</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.InteropServices.WindowsRuntime\UnsafeNativeMethods.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.InteropServices.WindowsRuntime</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting\RemotingServices.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Activation\ActivationServices.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Contexts\Context.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Contexts</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Messaging\AsyncResult.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Messaging\MonoMethodMessage.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Proxies\RealProxy.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Remoting.Proxies</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Versioning\VersioningHelper.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Runtime.Versioning</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Security\SecurityFrame.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Security</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Security\SecurityManager.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Security</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Security.Cryptography\RNGCryptoServiceProvider.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Security.Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Security.Policy\Evidence.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Security.Policy</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Security.Principal\WindowsIdentity.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Security.Principal</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Security.Principal\WindowsImpersonationContext.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Security.Principal</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Security.Principal\WindowsPrincipal.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Security.Principal</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Text\Encoding.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Text</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Text\EncodingHelper.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Text</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Text\Normalization.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Text</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Threading\Interlocked.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Threading\InternalThread.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Threading\Monitor.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Threading\Mutex.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Threading\NativeEventCalls.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Threading\Thread.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Threading\ThreadPool.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Threading\Timer.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\mscorlib\System.Threading\WaitHandle.h">
+      <Filter>IL2CPP\libil2cpp\icalls\mscorlib\System.Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\Microsoft.Win32\NativeMethods.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\Microsoft.Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\Mono.Net.Security\MonoTlsProviderFactory.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\Mono.Net.Security</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\System\IOSelector.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\System.ComponentModel\Win32Exception.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.ComponentModel</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\System.Configuration\DefaultConfig.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\System.Configuration\InternalConfigurationHost.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\System.Diagnostics\DefaultTraceListener.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\System.Diagnostics\FileVersionInfo.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\System.Diagnostics\perfcounters-def.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\System.Diagnostics\PerformanceCounter.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\System.Diagnostics\PerformanceCounterCategory.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\System.Diagnostics\PerformanceCounterUtils.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\System.Diagnostics\Process.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\System.Diagnostics\Stopwatch.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\System.IO\FAMWatcher.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.IO</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\System.IO\FileSystemWatcher.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.IO</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\System.IO\InotifyWatcher.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.IO</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\System.IO\KqueueMonitor.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.IO</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\System.Net\Dns.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Net</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\System.Net.NetworkInformation\LinuxNetworkInterface.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Net.NetworkInformation</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\System.Net.NetworkInformation\MacOsIPInterfaceProperties.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Net.NetworkInformation</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\System.Net.Sockets\Socket.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Net.Sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\System.Net.Sockets\SocketException.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Net.Sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System\System.Threading\Semaphore.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System\System.Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System.Configuration\System.Configuration\InternalConfigurationHost.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System.Configuration\System.Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\icalls\System.Core\System.IO.MemoryMappedFiles\MemoryMapImpl.h">
+      <Filter>IL2CPP\libil2cpp\icalls\System.Core\System.IO.MemoryMappedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\metadata\ArrayMetadata.h">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\metadata\FieldLayout.h">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\metadata\GenericMetadata.h">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\metadata\GenericMethod.h">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\metadata\GenericSharing.h">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\metadata\Il2CppGenericClassCompare.h">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\metadata\Il2CppGenericClassHash.h">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\metadata\Il2CppGenericContextCompare.h">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\metadata\Il2CppGenericContextHash.h">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\metadata\Il2CppGenericInstCompare.h">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\metadata\Il2CppGenericInstHash.h">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\metadata\Il2CppGenericMethodCompare.h">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\metadata\Il2CppGenericMethodHash.h">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\metadata\Il2CppSignatureCompare.h">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\metadata\Il2CppSignatureHash.h">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\metadata\Il2CppTypeCompare.h">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\metadata\Il2CppTypeHash.h">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\metadata\Il2CppTypeVector.h">
+      <Filter>IL2CPP\libil2cpp\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\mono\ThreadPool\threadpool-ms-io-poll.h">
+      <Filter>IL2CPP\libil2cpp\mono\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\mono\ThreadPool\threadpool-ms-io.h">
+      <Filter>IL2CPP\libil2cpp\mono\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\mono\ThreadPool\threadpool-ms.h">
+      <Filter>IL2CPP\libil2cpp\mono\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\mono\ThreadPool\ThreadPoolDataStructures.h">
+      <Filter>IL2CPP\libil2cpp\mono\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\mono\ThreadPool\ThreadPoolMacros.h">
+      <Filter>IL2CPP\libil2cpp\mono\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\mono\ThreadPool\ThreadPoolMonitorThread.h">
+      <Filter>IL2CPP\libil2cpp\mono\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\mono\ThreadPool\ThreadPoolWorkerThread.h">
+      <Filter>IL2CPP\libil2cpp\mono\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\mono-runtime\il2cpp-callbacks.h">
+      <Filter>IL2CPP\libil2cpp\mono-runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\mono-runtime\il2cpp-mapping.h">
+      <Filter>IL2CPP\libil2cpp\mono-runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\mono-runtime\il2cpp-mono-support.h">
+      <Filter>IL2CPP\libil2cpp\mono-runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Atomic.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\COM.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\ConditionVariable.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Console.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\CpuInfo.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Cryptography.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Debug.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Directory.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Encoding.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Environment.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Error.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\ErrorCodes.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Event.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\File.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\FileSystemWatcher.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Handle.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Image.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Initialize.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\LastError.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\LibraryLoader.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Locale.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\MarshalAlloc.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\MarshalStringAlloc.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Memory.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\MemoryMappedFile.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Messages.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Mutex.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\NativeMethods.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Path.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Process.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Semaphore.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Socket.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\StackTrace.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Thread.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\ThreadLocalValue.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Time.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\TimeZone.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\WaitStatus.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\WindowsRuntime.h">
+      <Filter>IL2CPP\libil2cpp\os</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\Allocator.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\Atomic-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\COM-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\ConditionVariable-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\CpuInfo-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\Cryptography-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\Debug-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\Directory-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\Environment-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\Error-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\File-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\il2cpp-config-platforms.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\Locale-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\Memory-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\MemoryMappedFile-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\Messages-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\Mutex-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\NativeMethods-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\OSGlobalEnums.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\Path-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\Process-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\Thread-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\ThreadLocalValue-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\Time-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\TimeZone-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\Posix\AtomicImpl-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api\Posix</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\tests\PathHelper.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\Win32\AtomicImpl-c-api.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\c-api\Win32\WindowsHeaders.h">
+      <Filter>IL2CPP\libil2cpp\os\c-api\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Generic\SocketImpl.h">
+      <Filter>IL2CPP\libil2cpp\os\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Posix\AtomicImpl.h">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Posix\ConditionVariableImpl.h">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Posix\Error.h">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Posix\EventImpl.h">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Posix\FileHandle.h">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Posix\MutexImpl.h">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Posix\PosixHelpers.h">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Posix\PosixWaitObject.h">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Posix\SemaphoreImpl.h">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Posix\SocketImpl.h">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Posix\ThreadImpl.h">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Posix\ThreadLocalValueImpl.h">
+      <Filter>IL2CPP\libil2cpp\os\Posix</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Std\ThreadImpl.h">
+      <Filter>IL2CPP\libil2cpp\os\Std</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Tizen\ExtendedAtomicOps.h">
+      <Filter>IL2CPP\libil2cpp\os\Tizen</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Unity\AtomicQueue.h">
+      <Filter>IL2CPP\libil2cpp\os\Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Unity\ExtendedAtomicOps-arm.h">
+      <Filter>IL2CPP\libil2cpp\os\Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Unity\ExtendedAtomicOps-arm64.h">
+      <Filter>IL2CPP\libil2cpp\os\Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Unity\ExtendedAtomicOps-x86-64.h">
+      <Filter>IL2CPP\libil2cpp\os\Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Unity\ExtendedAtomicOps-x86.h">
+      <Filter>IL2CPP\libil2cpp\os\Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Unity\ExtendedAtomicOps.h">
+      <Filter>IL2CPP\libil2cpp\os\Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Unity\ExtendedAtomicTypes.h">
+      <Filter>IL2CPP\libil2cpp\os\Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Unity\UnityPlatformConfigure.h">
+      <Filter>IL2CPP\libil2cpp\os\Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Win32\AtomicImpl.h">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Win32\ConditionVariableImpl.h">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Win32\EventImpl.h">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Win32\MutexImpl.h">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Win32\SemaphoreImpl.h">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Win32\SocketImpl.h">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Win32\ThreadImpl.h">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Win32\ThreadLocalValueImpl.h">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Win32\WindowsHeaders.h">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\Win32\WindowsHelpers.h">
+      <Filter>IL2CPP\libil2cpp\os\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\WinRT\SynchronousOperation.h">
+      <Filter>IL2CPP\libil2cpp\os\WinRT</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\WinRT\Win32ApiSharedEmulation.h">
+      <Filter>IL2CPP\libil2cpp\os\WinRT</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\os\WinRT\Win32ApiWinRTEmulation.h">
+      <Filter>IL2CPP\libil2cpp\os\WinRT</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\CallOnce.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\Collections.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\DirectoryUtils.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\dynamic_array.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\Environment.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\Exception.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\Functional.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\HashUtils.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\Il2CppHashMap.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\Il2CppHashSet.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\Il2CppHStringReference.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\KeyWrapper.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\Logging.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\MarshalingUtils.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\MathUtils.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\Memory.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\MemoryPool.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\MemoryRead.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\NonCopyable.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\Output.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\PathUtils.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\RegisterRuntimeInitializeAndCleanup.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\Runtime.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\StringUtils.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\StringView.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\StringViewStream.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\TemplateUtils.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\ThreadSafeFreeList.h">
+      <Filter>IL2CPP\libil2cpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\utf8-cpp\source\utf8.h">
+      <Filter>IL2CPP\libil2cpp\utils\utf8-cpp\source</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\utf8-cpp\source\utf8\checked.h">
+      <Filter>IL2CPP\libil2cpp\utils\utf8-cpp\source\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\utf8-cpp\source\utf8\core.h">
+      <Filter>IL2CPP\libil2cpp\utils\utf8-cpp\source\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\utils\utf8-cpp\source\utf8\unchecked.h">
+      <Filter>IL2CPP\libil2cpp\utils\utf8-cpp\source\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Array.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Assembly.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\AssemblyName.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Atomic.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\CachedCCWBase.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\CCW.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Class.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\COM.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\ComObjectBase.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Debug.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Domain.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Enum.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Event.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Exception.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Field.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\GenericClass.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\GenericContainer.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Image.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\InternalCalls.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\LastError.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\LibraryLoader.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Liveness.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\MarshalAlloc.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\MemoryInformation.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\MetadataAlloc.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\MetadataCache.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\MetadataLoader.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\MetadataLock.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Method.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Module.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Monitor.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\NonCachedCCWBase.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Object.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Parameter.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Path.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\PlatformInvoke.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Profiler.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Property.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Random.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\RCW.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Reflection.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Runtime.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\StackTrace.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\String.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Thread.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\ThreadPool.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\ThreadPoolMs.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\Type.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\WaitHandle.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm\WindowsRuntime.h">
+      <Filter>IL2CPP\libil2cpp\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm-utils\BlobReader.h">
+      <Filter>IL2CPP\libil2cpp\vm-utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm-utils\NativeDelegateMethodCache.h">
+      <Filter>IL2CPP\libil2cpp\vm-utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm-utils\NativeSymbol.h">
+      <Filter>IL2CPP\libil2cpp\vm-utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP\libil2cpp\vm-utils\VmStringUtils.h">
+      <Filter>IL2CPP\libil2cpp\vm-utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
