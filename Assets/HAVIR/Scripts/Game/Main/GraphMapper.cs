@@ -18,7 +18,7 @@ namespace Assets.HAVIR.Scripts.Game.Main
         {
             var graph = new List<Question>();
             //var graphMl = MapFromXml();
-            var xml = XElement.Load(@"C:\Users\Lucho\Documents\En ejecución\Proyectos\UAN\HAVIR\Assets\HAVIR\Scripts\Game\Main\GraphModel\BasicDialog.graphml");
+            var xml = XElement.Load(@"C:\Users\Lucho\Documents\En ejecución\Proyectos\UAN\HAVIR\HumanoVirtual\Assets\HAVIR\Scripts\Game\Main\GraphModel\BasicDialog.graphml");
 
             var graphXml = xml.Elements("{http://graphml.graphdrawing.org/xmlns}graph");
 

@@ -44,7 +44,7 @@ public class SpeechRegonizerManager : IDisposable
     public void InitRecognizer(bool dictation, bool keywordRecognation)
     {
         _recognizer.InitRecognizer(dictation, keywordRecognation);
-        _startQuestion.Execute();
+        //_startQuestion.Execute();
     }
 
     internal void SetStartNode(Question question)

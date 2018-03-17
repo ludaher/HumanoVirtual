@@ -22,7 +22,15 @@ public class UnitySpeechRecognizer : IVoiceRecognizer
     {
         _recognizerDictionary = new Dictionary<Guid, KeywordRecognizer>();
         _dictationRecognizer = new DictationRecognizer();
+        _dictationRecognizer.DictationComplete += OnDictationCompleteHandler;
         _keywords = new List<string>();
+    }
+
+    private void OnDictationCompleteHandler(DictationCompletionCause cause)
+    {
+        StringBuilder builder = new StringBuilder();
+        builder.AppendFormat(cause+Environment.NewLine);
+        Debug.Log(builder.ToString());
     }
 
     #region IVoiceRecognizer implementation
@@ -33,6 +41,7 @@ public class UnitySpeechRecognizer : IVoiceRecognizer
         var newKeywords = arista.Choices.Except(_keywords).ToList();
         if (newKeywords.Any() == false)
             return Guid.Empty;
+
         var recognizer = new KeywordRecognizer(newKeywords.ToArray());
         recognizer.OnPhraseRecognized += OnPhraseRecognizedHandler;
         if (startInmmediately)
@@ -42,14 +51,28 @@ public class UnitySpeechRecognizer : IVoiceRecognizer
         return id;
     }
 
+    Dictionary<string, System.Action> keywords = new Dictionary<string, Action>();
+    private KeywordRecognizer keywordRecognizer;
     public void InitRecognizer(bool dictation, bool keywordRecognation)
     {
         if (dictation)
             _dictationRecognizer.Start();
-        foreach (var recognizer in _recognizerDictionary)
-        {
-            recognizer.Value.Start();
-        }
+        keywords.Add("facebook", () => { });
+        keywords.Add("hola", () => {  });
+        keywords.Add("care chimba", () => {  });
+        keywords.Add("bienvenido", () => {  });
+        keywords.Add("buenas", () => {  });
+        //keywords.Add("estamos trabajando", () => { PrintAction(); });
+        keywordRecognizer = new KeywordRecognizer(keywords.Keys.ToArray());
+
+        keywordRecognizer.OnPhraseRecognized += OnPhraseRecognizedHandler;
+        keywordRecognizer.Start();
+
+        Debug.Log("Recognizer started");
+        //foreach (var recognizer in _recognizerDictionary)
+        //{
+        //    recognizer.Value.Start();
+        //}
     }
 
     public void RemoveKeywordRecognition(Guid id)

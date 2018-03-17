@@ -20,19 +20,8 @@ public class GameManager : MonoBehaviour, IDisposable
     void Start()
     {
         _InitVoice();
-        //_InitRecognizer(false, true);
+        _InitRecognizer(true, true);
 
-        keywords.Add("facebook", () => { Facebook(); });
-        keywords.Add("hola", () => { PrintAction(); });
-        keywords.Add("care chimba", () => { PrintAction(); });
-        keywords.Add("bienvenido", () => { PrintAction(); });
-        keywords.Add("buenas", () => { PrintAction(); });
-        //keywords.Add("estamos trabajando", () => { PrintAction(); });
-        keywordRecognizer = new KeywordRecognizer(keywords.Keys.ToArray());
-
-        keywordRecognizer.OnPhraseRecognized += OnPhraseRecognizedHandler;
-        keywordRecognizer.Start();
-        Debug.Log("Recognizer started");
     }
     private void OnPhraseRecognizedHandler(PhraseRecognizedEventArgs args)
     {
@@ -99,6 +88,7 @@ public class GameManager : MonoBehaviour, IDisposable
 
     public void Dispose()
     {
+        _voiceManager.Dispose();
         _speechManager.Dispose();
     }
 }
